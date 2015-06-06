@@ -16,7 +16,7 @@ protected override bool ProcessTabKey(bool forward)
 				ArrayList possibles = new ArrayList();
 				foreach (string dir in dirs)//possible dirs in working dir
 				{
-					if (dir.Length >= letters.Length)//check search string is longer or equal to length of test dir, otherwise can't be a match
+					if (dir.Length >= letters.Length) //check search string is longer or equal to length of test dir, otherwise can't be a match
 					{
 						if (dir.StartsWith(firstChars))
 						{
