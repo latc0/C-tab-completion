@@ -77,7 +77,7 @@ protected override bool ProcessTabKey(bool forward)
 				}
 			}
 		}
-		pathBox.Select(pathBox.Text.Length, 0);//set cursor to end of text
+		pathBox.Select(pathBox.Text.Length, 0); //set cursor to end of text
 	}
 	return false;
 }
